@@ -1,0 +1,390 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: #ddd;
+}
+header{
+	height: 100px;
+	background: #38bd02;
+	border-radius: 0 0 3px 3px;
+}
+div{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+.logo{
+
+}
+.logo img{
+	margin: 5px 0 5px 50px;
+	width: 80px;
+	float: left;
+	transition: transform 2s;
+}
+.logo img:hover{
+	transform: rotate(360deg);
+}
+#logo_text {
+	margin: 30px 10px ;
+	float: left;
+}
+.logo a{
+	color: #000;
+}
+.logo a:hover {
+	color: #fff;
+}
+form{
+	float: left;
+	margin:30px 0 30px 200px;
+	padding: 4px;
+	background: #fff;
+	border-radius: 8px;
+}
+input[type=text]{
+	padding: 0 5px ;
+	width:350px;
+	height: 30px;
+	border: none;
+	margin: 0 5px;
+}
+button{
+	background: none;
+	border: none;
+	padding: 5px 0 0;
+}
+button img{
+	margin-bottom: -5px;
+	width: 20px;
+}
+.log{
+	float: right;
+	margin:40px 70px 0 0;
+	text-transform: uppercase;
+}
+.log a{
+	color: #000;
+	font-weight: bold;
+	margin: 5px;
+	font-size: 20px;
+}
+.log a:hover{
+	color: #fff;
+}
+.menu{
+	margin: 0 0 0 1px;
+}
+.menu>ul>li{
+	width: 6%;
+	list-style: none;
+	background: #151515;
+	float: left;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	border-right: 5px solid #055600;
+	border-radius: 0 0 15px 15px;
+	position: relative;
+	text-align: center;
+}
+.menu ul li a{
+	color: #fff;
+	font-weight: bold;
+}
+.menu ul li ul{
+	position: absolute;
+	display: none;
+	z-index: 100;
+	top:38px;
+	left: 0;
+	width: 103%;
+	background: #151515;
+}
+.menu ul li ul li{
+	border-top: 2px solid #055600;
+	border-right: 5px solid #055600;
+	list-style: none;
+	padding: 10px 10px;
+	font-size: 14px;
+}
+.menu ul li ul li a{
+	font-size: 15px;
+}
+.menu ul li:hover ul{
+	display: block;
+}
+.cham:hover{
+	border-radius: 0;
+}
+.menu ul li:hover{
+	background: #38bd02;
+}
+section{
+	clear: both;
+	width: 100%;
+	margin: 10px auto;
+	padding-top: 10px;
+}
+#name{
+	background: #38bd02;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 8px 10px 5px;
+	border-radius: 10px 15px 0 0;
+	animation-name: go;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes go{
+	0%{margin-left:10%;}
+	50%{margin-left: 65%;}
+	100%{margin-left: 10%;}
+}
+section{
+	clear: both;
+	width: 93%;
+	margin: 10px auto;
+	padding-top: 10px;
+
+}
+#main{
+	border-top: 5px solid #38bd02;
+	background: #fff;
+	width: 100%;
+	height: 700px;
+	display: block;
+	width: 93%;
+	margin: auto;
+}
+#img{
+	width: 50%;
+	float: left;
+	margin-right: 30px;
+}
+.khuvuc{
+	font-weight: bold;
+	padding: 5px 0;
+}
+select{
+	width: 150px;
+	padding:5px;
+	color: #666;
+	border-radius: 10px;
+}
+.uudai{
+	display: block;
+	margin: 20px 0 ;
+	width: 500px;
+}
+.uudai h3{
+	margin: 0 10px -10px;
+	background: #fff;
+	font-size: 24px;
+	display: inline-block;
+}
+.uudai ul{
+	border:1px solid #ccc;
+	padding: 30px 10px 20px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.uudai ul li{
+	list-style: none;
+	margin: 5px 0;
+}
+.uudai ul li a{
+	color: green;
+}
+.uudai p{
+	display: inline;
+}
+.btn a{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	margin: 5px auto;
+	border-radius: 10px;
+	padding: 10px;
+	display: block;
+	width: 400px;
+	text-align: center;
+}
+.ngay{
+	border:1px solid #f21136;
+	background: #f21136;
+}
+.ngay span{
+	font-size: 14px;
+}
+.tragop{
+	border:1px solid #39d37b;
+	background: #39d37b;
+}
+.ngay:hover{
+	background: #fff;
+	color: #f00;
+}
+.tragop:hover{
+	background: #fff;
+	color: #0f0;
+}
+.lienhe{
+	width: 400px;
+	display: block;
+	font-size: 15px;
+}
+.lienhe span{
+	font-weight: bold;
+}
+.lienhe a{
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#gia{
+	margin: 20px 0;
+	color: #f00;
+	font-size: 26px;
+	font-weight: bold;
+	display: inline-block;
+}
+.gia{
+	color: #f00;
+	text-align: center;
+}
+article{
+/*	background: #fff;*/
+	margin: 20px 0;
+}
+.run{
+	display: block;
+}
+.run img{
+	width: 40px;
+	animation-name: run;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+}
+@keyframes run{
+	0%{margin-left:0%;}
+	40%{margin-left:97%;}
+	80%{transform: rotateY(180deg);}
+	90%{margin-left: 0%;}
+	90%{transform: rotateY(180deg);}
+}
+article h3{
+	background: #005a0f;
+	padding: 10px 20px;
+	margin-left: 20px;
+	border-radius: 10px 15px 0 0;
+	display: inline-block;
+}
+article a{
+	color: #fff;
+}
+.phukien{
+	width: 95%;
+	border-top: 5px solid #005a0f;
+	margin-left: 20px;
+	background: #151515;
+}
+.phukien-item{
+	width: 18%;
+	margin: 11px;
+}
+.phukien-item img{
+	width: 100%;
+	border-radius: 30%;
+	transition: border-radius 1s;
+}
+.phukien-item img:hover{
+	border-radius: 0%;
+}
+.phukien-item h4{
+	text-align: center;
+}
+footer{
+	background: #151515;
+	padding: 40px;
+	text-align: center;
+	color: #b8b8b8;
+}
+.lienket{
+	display: block;
+}
+.lienket img{
+	width: 50px;
+	margin: 5px;
+	border-radius: 50%;
+	transition: transform 1s;
+}
+.lienket img:hover{
+	transform: rotate(360deg);
+}
+.footer-menu{
+	display: inline-block;
+	margin: 30px 0;
+}
+.footer-menu ul li{
+	list-style: none;
+	float: left;
+	padding: 0 10px;
+	border-left: 2px solid #fff;
+}
+.footer-menu ul li:first-child {
+	border-left: 0;
+}
+.footer-menu ul li a{
+	color: #35b501;
+}
+.footer-menu ul li a:hover{
+	color: #fff;
+}
+footer p{
+	clear: both;
+}
+aside img{
+	width: 40px;
+}
+.left{
+	position: fixed;
+	left: -10px;
+	border-radius: 0 50% 50% 0;
+	transition: padding-left 0.5s;
+}
+.left:hover{
+	padding-left: 20px;
+}
+.face{
+	top:200px;
+	background: #3b5998;
+}
+.tube{
+	top:250px;
+	background: #cd201f;
+}
+.twitter{
+	top:300px;
+	background: #2aaae0;
+}
